@@ -25,189 +25,195 @@ WebUI.navigateToUrl('https://www.traveloka.com/id-id/kereta-api')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Select Location'))
+WebUI.click(findTestObject('Kereta Api Test Case/Select Location'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Select Location'), 'Bandung')
+WebUI.setText(findTestObject('Kereta Api Test Case/Select Location'), 'Bandung')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Detail Location'))
+WebUI.click(findTestObject('Kereta Api Test Case/Detail Location'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Destination Location'))
+WebUI.click(findTestObject('Kereta Api Test Case/Destination Location'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Destination Location'), 'Jakarta')
+WebUI.setText(findTestObject('Kereta Api Test Case/Destination Location'), 'Jakarta')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Detail Destination'))
+WebUI.click(findTestObject('Kereta Api Test Case/Detail Destination'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Date Depart'))
+WebUI.click(findTestObject('Kereta Api Test Case/Date Depart'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Detail Date Depart'))
+WebUI.click(findTestObject('Kereta Api Test Case/Detail Date Depart'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/People'))
+WebUI.click(findTestObject('Kereta Api Test Case/People'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Detail People'))
+WebUI.click(findTestObject('Kereta Api Test Case/Detail People'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Search Ticket'))
+WebUI.click(findTestObject('Kereta Api Test Case/Search Ticket'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Select Train/Select Train button'))
+WebUI.click(findTestObject('Kereta Api Test Case/Select Train/Select Train button'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Name'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Name'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Name'), 'Gabriel')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Name'), 'Gabriel')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Phone'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Phone'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Phone'), '8123456789')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Phone'), '8123456789')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Email'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Email'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Email'), 'example@gmail.com')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Email'), 'example@gmail.com')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 1/Title Traveler 1'), 'MR', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 1/Title Traveler 1'), 'MR', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 1/Name Traveler 1'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 1/Name Traveler 1'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 1/Name Traveler 1'), 'Gabriel')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 1/Name Traveler 1'), 'Gabriel')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 1/Tanda Pengenal Traveler 1'), 'KTP', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 1/Tanda Pengenal Traveler 1'), 'KTP', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 1/Select Pengenal Traveler 1'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 1/Select Pengenal Traveler 1'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 1/Select Pengenal Traveler 1'), '3273123456789101')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 1/Select Pengenal Traveler 1'), '3273123456789101')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 2/Title Traveler 2'), 'MR', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 2/Title Traveler 2'), 'MR', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 2/Name Traveler 2'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 2/Name Traveler 2'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 2/Name Traveler 2'), 'Budi')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 2/Name Traveler 2'), 'Budi')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 2/Tanda Pengenal Traveler 2'), 'KTP', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 2/Tanda Pengenal Traveler 2'), 'KTP', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 2/Select Pengenal Traveler 2'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 2/Select Pengenal Traveler 2'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 2/Select Pengenal Traveler 2'), '3273123456789102')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 2/Select Pengenal Traveler 2'), '3273123456789102')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Title Traveler 3'), 'MR', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 3/Title Traveler 3'), 'MR', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Name Traveler 3'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 3/Name Traveler 3'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Name Traveler 3'), 'Asep')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 3/Name Traveler 3'), 'Asep')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Tanda Pengenal Traveler 3'), 'KTP', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 3/Tanda Pengenal Traveler 3'), 'KTP', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Select Pengenal Traveler 3'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 3/Select Pengenal Traveler 3'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Select Pengenal Traveler 3'), '3273123456789122')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 3/Select Pengenal Traveler 3'), '3273123456789122')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Title Traveler 4'), 'MR', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 4/Title Traveler 4'), 'MR', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Name Traveler 4'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 4/Name Traveler 4'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Name Traveler 4'), 'Udin')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 4/Name Traveler 4'), 'Udin')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Tanda Pengenal Traveler 4'), 'KTP', false)
+WebUI.selectOptionByValue(findTestObject('Kereta Api Test Case/Booking/Traveler 4/Tanda Pengenal Traveler 4'), 'KTP', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Select Pengenal Traveler 4'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Traveler 4/Select Pengenal Traveler 4'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Select Pengenal Traveler 4'), '3273123456789123')
+WebUI.setText(findTestObject('Kereta Api Test Case/Booking/Traveler 4/Select Pengenal Traveler 4'), '3273123456789123')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next Button Booking'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Next Button Booking'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next to Payment'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Next to Payment'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next Validation Payment Button'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Next Validation Payment Button'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next to payment button'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Next to payment button'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Payment Button'))
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Payment Button'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Test Case/Booking/Confirmation Payment'))
+
+WebUI.closeBrowser()
 

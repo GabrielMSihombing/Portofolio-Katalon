@@ -17,3 +17,53 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://www.traveloka.com/id-id/tiket-pesawat')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Pesawat Test Case/Booking/From'))
+
+WebUI.delay(5)
+
+WebUI.clearText(findTestObject('Pesawat Test Case/Booking/From'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Pesawat Test Case/Booking/From'), 'Bandung')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Pesawat Test Case/Booking/Select From'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Pesawat Test Case/Booking/To Be'))
+
+WebUI.delay(3)
+
+WebUI.clearText(findTestObject('Pesawat Test Case/Booking/To Be'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Pesawat Test Case/Booking/To Be'), 'Medan')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Pesawat Test Case/Booking/Select To Be'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Pesawat Test Case/Booking/Departure Of Date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Pesawat Test Case/Booking/Select Departure of Date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Pesawat Test Case/Booking/Search Ticket Button'))
+
