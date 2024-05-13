@@ -145,3 +145,69 @@ WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 2/Select Pen
 
 WebUI.delay(5)
 
+WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Title Traveler 3'), 'MR', false)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Name Traveler 3'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Name Traveler 3'), 'Asep')
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Tanda Pengenal Traveler 3'), 'KTP', false)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Select Pengenal Traveler 3'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 3/Select Pengenal Traveler 3'), '3273123456789122')
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Title Traveler 4'), 'MR', false)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Name Traveler 4'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Name Traveler 4'), 'Udin')
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Tanda Pengenal Traveler 4'), 'KTP', false)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Select Pengenal Traveler 4'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Kereta Api Traveloka/Booking/Traveler 4/Select Pengenal Traveler 4'), '3273123456789123')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next Button Booking'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next to Payment'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next Validation Payment Button'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Next to payment button'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Kereta Api Traveloka/Booking/Payment Button'))
+
